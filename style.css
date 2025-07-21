@@ -29,7 +29,7 @@
 }
 .containers{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -42,10 +42,18 @@
 }
 .right-container{
     width: 30%;
-    background-color: #E67E4E;
-    position: sticky;
+    background-color: var(--text-primary);
+    /* position: sticky; */
     margin-top: 70px;
 }
+.whatsapp{
+    color: var(--text-orange);
+}
+.or{
+    color: var(--text-orange);
+}
+
+
 
 .first{
     background: var(--gradient-7);
@@ -92,6 +100,12 @@ p{
 
     box-shadow: 2px 2px 2px var(--text-orange);
     color: var(--text-dblue);
+}
+.logo{
+    transition:  transform 0.5s linear;
+}
+.logo:hover{
+     transform: scale(1.2);
 }
 .sign{
     color: var(--text-orange);
@@ -240,7 +254,9 @@ p{
     }
 }
 
-
+.post{
+    background-color: var(--text-primary);
+}
 
 
 .sign-up{
@@ -265,4 +281,8 @@ clip-path: polygon(100% 0, 90% 35%, 70% 67%, 40% 88%, 0 100%,0% 0%);
 }
  .contant{
     margin-left: 200px;
+ }
+ .count{
+    background-color: var(--text-orange);
+    color: #333;
  }
