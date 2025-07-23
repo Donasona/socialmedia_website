@@ -299,3 +299,12 @@ clip-path: polygon(100% 0, 90% 35%, 70% 67%, 40% 88%, 0 100%,0% 0%);
  .fa-solid{
     color: var(--text-orange);
  }
+ .image-conn{
+    margin-top: -95px;
+    /* transform: translate(3 -3); */
+ }
+ 
+ .mutual{
+    background-color: var(--text-primary);
+    border-radius: 6px;
+ }
