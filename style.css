@@ -398,7 +398,6 @@ p{
  .clippy{
     background-color: var(--text-primary);
     border-radius: 0px 70px 70px 0px;
-    /* clip-path: polygon(54% 0, 0 0, 0 60%, 0 100%, 29% 74%, 46% 41%, 52% 13%); */
 }
  .contant{
     margin-left: 200px;
