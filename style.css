@@ -121,9 +121,7 @@ p{
 .face{
     margin-left: 90px;
 }
-.icon{
-    color: var(--text-dblue);
-}
+
 .hii{
     width: 260px;
     height: 400px;
@@ -147,6 +145,117 @@ p{
 
 }
 
+.melting-textsignin {
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--gradient-9);
+    position: relative;
+    animation: melt 3s infinite ease-in-out;
+    background: linear-gradient(90deg, #ff6f61, #ffbd44, #ff6f61);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.melting-textsignin::before,
+.melting-textsignin::after {
+    content: 'SIGN IN';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #ff6f61, #ffbd44, #ff6f61);
+    -webkit-background-clip: text;
+    color: transparent;
+    z-index: -1;
+    transform: scaleY(1);
+    opacity: 0.5;
+    animation: drip 3s infinite ease-in-out;
+}
+
+.melting-text-signin::after {
+    filter: blur(10px);
+    opacity: 0.3;
+}
+
+/* Keyframes for melting effect */
+@keyframes melt {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes drip {
+    0%, 100% {
+        transform: scaleY(0);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scaleY(1.2);
+        opacity: 0.7;
+    }
+}
+
+.melting-textsignup {
+    font-size: 6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--gradient-9);
+    position: relative;
+    animation: melt 3s infinite ease-in-out;
+    background: linear-gradient(90deg, #ff6f61, #ffbd44, #ff6f61);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.melting-textsignup::before,
+.melting-textsignup::after {
+    content: 'SIGN UP';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #ff6f61, #ffbd44, #ff6f61);
+    -webkit-background-clip: text;
+    color: transparent;
+    z-index: -1;
+    transform: scaleY(1);
+    opacity: 0.5;
+    animation: drip 3s infinite ease-in-out;
+}
+
+.melting-text-signup::after {
+    filter: blur(10px);
+    opacity: 0.3;
+}
+
+/* Keyframes for melting effect */
+@keyframes melt {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes drip {
+    0%, 100% {
+        transform: scaleY(0);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scaleY(1.2);
+        opacity: 0.7;
+    }
+}
+
+
 .melting-text {
     font-size: 6rem;
     font-weight: bold;
@@ -161,7 +270,7 @@ p{
 
 .melting-text::before,
 .melting-text::after {
-    content: 'DRIMSY';
+    content: 'CIRCLE';
     position: absolute;
     top: 0;
     left: 0;
@@ -274,20 +383,22 @@ p{
     border: 1px solid var(--gradient-6);
 }
 .form{
-    background: var(--text-orange);
+    background: var(--gradient-7);
+    /* background: var(--text-orange); */
     margin-top: 10px;
      box-shadow: 5px 5px 5px var(--text-orange);
 
 }
 .buton{
-   background-color: rgb(233, 48, 48);
+   background-color: var(--text-orange);
    color: #333;
-   font-size: large;
+   font-size: x-large;
 
  }
  .clippy{
     background-color: var(--text-primary);
-clip-path: polygon(100% 0, 90% 35%, 70% 67%, 40% 88%, 0 100%,0% 0%);
+    border-radius: 0px 70px 70px 0px;
+    /* clip-path: polygon(54% 0, 0 0, 0 60%, 0 100%, 29% 74%, 46% 41%, 52% 13%); */
 }
  .contant{
     margin-left: 200px;
