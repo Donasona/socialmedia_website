@@ -10,6 +10,8 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -17,455 +19,274 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg" style="width: 100vw; position: fixed">
-      <div class="container-fluid">
-        <a
-          class="navbar-brand text-dark logo rounded-5 shadow " 
-          href="./index.html"
-          style="font-family: fantasy; width: 80px; text-align: center;background-color: rgb(243, 113, 20);"
-          >CIRCLE</a
-        >
-        <div style="margin-left: 70px">
-          <i class="fa-solid fa-bell text-light"></i>
-        </div>
-        <div style="margin-left: 25px">
-          <i class="fa-solid fa-camera text-light"></i>
-        </div>
-        <div style="margin-left: 25px">
-          <i class="fa-solid fa-user text-light"></i>
-        </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <form class="d-flex" role="search" style="margin-left: 820px">
-            <input
-              class="form-control rounded-5 me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-danger rounded-5" type="submit">
-              Search
-            </button>
-          </form>
-          <div>
-            <a href="./profile.html">
-              <img
-                src="./images/Dona (2).jpg"
-                alt=""
-                class="rounded-pill"
-                style="width: 40px; height: 40px; margin-left: 10px"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <div class="containers">
-      <div class="left-container">
-
-        <div class="post" style="padding: 10px; border-radius: 6px">
-          <div class="post-profile d-flex" style="height: 40px">
-            <img
-              src="./images/Dona (2).jpg"
-              alt="img"
-              style="width: 35px; height: 35px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Dona Paul
-              <p style="margin-top: -3px">
-                Public <i class="fa-solid fa-caret-down text-dark"></i></p
-            ></span>
-          </div>
-          <div
-            class="post-content"
-            style="padding-left: 55px; padding-top: 10px"
-          >
-            <textarea
-              name=""
-              id=""
-              rows="3"
-              placeholder="what's on your mind?.."
-              style="
-                width: 100%;
-                border: 0;
-                outline: 0;
-                border-bottom: 1px solid orange;
-                resize: none;
-              "
-            ></textarea>
-            <div class="post-icons d-flex">
-              <div>
-                <i class="fa-solid fa-video" style="margin-left: 10px"></i> Live
-                Video
-              </div>
-              <div>
-                <i class="fa-solid fa-camera" style="margin-left: 15px"></i>
-                Photo/Video
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="post-poster" style="margin-top: 10px; border-radius: 6px; padding: 10px;">
-          <div class="post-profile d-flex" style="height: 40px">
-            <img
-              src="./images/pic3.jpg"
-              alt="img"
-              style="width: 35px; height: 35px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Manu Menon
-              <p style="margin-top: -3px; font-size:x-small;">
-                July 19 2025, 13:20 pm</p
-            ></span>
-            <div>
-            <i
-              class="fa-solid fa-ellipsis-vertical"
-              style="margin-left: 800px"
-            ></i></div>
-          </div>
-          <div class="post-text" style="margin-top: 3px;">"Fueling productivity, one cup at a time. ☕💻 Coffee isn't just a drink — it's a work companion, a motivator, and a tiny boost of inspiration." <a href="">#CoffeeBreak</a> <a href=""> #WorkModeOn</a>
-          <img src="./images/tea.jpg" alt="" style="width: 100%; border-radius: 4px; margin-bottom: 5px; height: 480px;">
-          <div  class="post-like d-flex">
-          <div style="margin-left: 10px;"><i class="fa-solid fa-thumbs-up like" style="font-size: large;"></i><span style="font-size: small;"> 120</span> </div>
-          <div style="margin-left: 30px;"><i class="fa-solid fa-comments"  style="font-size: large;"></i><span style="font-size: small;"> 86</span></div>
-          <div style="margin-left: 30px;">   <i class="fa-solid fa-share " style="font-size: large;"></i>   <span style="font-size: small;"> 14</span></div>
-          </div>
-          </div>
-        </div>
-
-
-         <div class="post-poster" style="margin-top: 10px; border-radius: 6px; padding: 10px;">
-          <div class="post-profile d-flex" style="height: 40px">
-            <img
-              src="./images/img.jpg"
-              alt="img"
-              style="width: 35px; height: 35px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Anusree
-              <p style="margin-top: -3px; font-size:x-small;">
-                June 29 2025, 10:05 am</p
-            ></span>
-            <div>
-            <i
-              class="fa-solid fa-ellipsis-vertical"
-              style="margin-left: 800px"
-            ></i></div>
-          </div>
-          <div class="post-text" style="margin-top: 3px;">“Lost in the world of stories, one page at a time." 📚✨ <a href=""> #BookWorm</a> <a href="">#BookLover</a> <a href=""> #BooksAreLife</a>
-          <img src="./images/book.avif" alt="" style="width: 100%; border-radius: 4px; margin-bottom: 5px; height: 480px;">
-          <div  class="post-like d-flex">
-          <div style="margin-left: 10px;"><i class="fa-solid fa-thumbs-up like" style="font-size: large;"></i><span style="font-size: small;"> 250</span> </div>
-          <div style="margin-left: 30px;"><i class="fa-solid fa-comments"  style="font-size: large;"></i><span style="font-size: small;"> 106</span></div>
-          <div style="margin-left: 30px;">   <i class="fa-solid fa-share " style="font-size: large;"></i>   <span style="font-size: small;"> 26</span></div>
-          </div>
-          </div>
-
-        </div>
-
-
-      </div>
-      <div class="right-container p-2" style="border-radius: 6px;">
-        <div class="d-flex whatsapp">
-          <h4>Messages</h4>
-          <div style="margin-left: 250px">
-            <i class="fa-solid fa-qrcode"></i>
-            <i
-              class="fa-solid fa-ellipsis-vertical"
-              style="margin-left: 10px"
-            ></i>
-          </div>
-        </div>
-        <div>
-          <form
-            style="width: 400px; margin-top: 10px"
-            class="d-flex justify-content-center"
-          >
-            <button class="btn" type="submit">
-              <i class="fa-solid fa-magnifying-glass or"></i>
-            </button>
-            <input
-              class="form-control rounded-5"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
-        </div>
-        <div class="parent" style="margin-top: 10px">
-          <div class="child d-flex" style="height: 40px">
-            <img
-              src="./images/img.jpg"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Anusree
-              <p style="margin-top: -3px">Hello!</p></span
-            >
-            <span style="margin-left: 250px; color: gray; font-size: x-small"
-              >8:23pm</span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/istockphoto-1317804578-612x612.webp"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Maya
-              <p style="margin-top: -3px">Thank You..</p></span
-            >
-            <span style="margin-left: 240px; color: gray; font-size: x-small"
-              >10:16pm<br />
-              <p
-                class="border d-flex justify-content-center align-items-center rounded-pill count"
-                style="width: 25px; height: 20px; margin-top: 2px"
-              >
-                1
-              </p></span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/istockphoto-1392583255-612x612.jpg"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Varun
-              <p style="margin-top: -3px">Hii,How are you?</p></span
-            >
-            <span style="margin-left: 210px; color: gray; font-size: x-small"
-              >9:36pm<br />
-              <p
-                class="border d-flex justify-content-center align-items-center rounded-pill count"
-                style="width: 25px; height: 20px; margin-top: 2px"
-              >
-                1
-              </p></span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/istockphoto-2170795426-612x612.webp"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Akshay
-              <p style="margin-top: -3px">okeyy</p></span
-            >
-            <span style="margin-left: 258px; color: gray; font-size: x-small"
-              >9:20pm<br />
-              <p
-                class="border d-flex justify-content-center align-items-center rounded-pill count"
-                style="width: 25px; height: 20px; margin-top: 2px"
-              >
-                1
-              </p></span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/photo-1557855765-c61eaa53c3ee.avif"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Katherine <br />
-              <p style="margin-top: -3px">Hii</p></span
-            >
-            <span style="margin-left: 244px; color: gray; font-size: x-small"
-              >7:30pm</span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/istockphot0.jpg"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Haritha
-              <p style="margin-top: -3px">What's up?</p></span
-            >
-            <span style="margin-left: 248px; color: gray; font-size: x-small"
-              >7:13pm</span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/pic1.jpg"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Manasa
-              <p style="margin-top: -3px">Nope</p></span
-            >
-            <span style="margin-left: 255px; color: gray; font-size: x-small"
-              >4:30pm</span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/pic2.jpg"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Arathi
-              <p style="margin-top: -3px">...?</p></span
-            >
-            <span style="margin-left: 269px; color: gray; font-size: x-small"
-              >11:15am</span
-            >
-          </div>
-
-          <div
-            class="child d-flex"
-            style="height: 40px; margin-top: 10px; margin-top: 10px"
-          >
-            <img
-              src="./images/pic3.jpg"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px"
-              >Manu Menon <br />
-              <p style="margin-top: -3px">Hii</p></span
-            >
-            <span style="margin-left: 220px; color: gray; font-size: x-small"
-              >08:16am<br />
-              <p
-                class="border d-flex justify-content-center align-items-center rounded-pill count"
-                style="width: 25px; height: 20px; margin-top: 2px"
-              >
-                1
-              </p></span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/pic4.jpg"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px">Arya</span>
-            <span style="margin-left: 277px; color: gray; font-size: x-small"
-              >19/07/25</span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/istockphoto-1392583255-612x612.jpg"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px">Krishna</span>
-            <span style="margin-left: 258px; color: gray; font-size: x-small"
-              >19/07/25</span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/istockphoto-1317804578-612x612.webp"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px">Meera</span>
-            <span style="margin-left: 268px; color: gray; font-size: x-small"
-              >18/07/25</span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/istockphoto-2170795426-612x612.webp"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px">Kiran</span>
-            <span style="margin-left: 277px; color: gray; font-size: x-small"
-              >16/07/25</span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/img.jpg"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px">Keerthi</span>
-            <span style="margin-left: 260px; color: gray; font-size: x-small"
-              >15/07/25</span
-            >
-          </div>
-
-          <div class="child d-flex" style="height: 40px; margin-top: 10px">
-            <img
-              src="./images/pic3.jpg"
-              alt="img"
-              style="width: 30px; height: 30px; margin-left: 7px"
-              class="rounded-pill"
-            />
-            <span style="margin-left: 10px">Karthik</span>
-            <span style="margin-left: 260px; color: gray; font-size: x-small"
-              >15/07/25</span
-            >
-          </div>
-        </div>
-        <div class="card" style="width: 100%;margin-top: 10px;">
-  <div class="card-body d-flex">
-   <span class=""> <h5 class="card-title " style="margin-left: 10px;">Advertisement</h5></span>
-   <span style="margin-left: 225px; font-size: small; color: rgb(204, 163, 86);">Close</span>
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark px-4">
+  <div class="container-fluid">
+    <div class="logo">CIRCLE</div>
+     <div class="ms-5">
+      <i class="bi bi-bell text-white me-3"></i>
+      <i class="bi bi-person text-white"></i>
+    </div>
+    <form class="d-flex ms-auto" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search">
+      <button class="btn btn-light" type="submit">Search</button>
+    </form>
   </div>
-        <img src="./images/computer.webp" class="card-img-top" alt="..." style="width: 100%; height: 250px; margin-top: -20px; padding: 10px; border-radius: 20px;">
-</div>
+</nav>
+
+<!-- Main Content -->
+<div class="container-fluid mt-3">
+  <div class="row">
+
+ 
+
+
+
+<div class="container mt-1">
+
+  <!-- Post Input -->
+  <div class="post-box ">
+    <div class="d-flex align-items-start mb-2">
+      <img src="./images/Dona (2).jpg" class="profile-img" alt="user">
+        <div class="w-100 ms-2">
+        <strong>Dona Paul</strong><br>
+        <small class="text-muted">Public <i class="bi bi-caret-down-fill"></i></small>
+        <textarea class="form-control mt-2" rows="2" placeholder="what's on your mind?.."></textarea>
+        <div class="mt-2">
+          <button class="btn btn-outline-danger btn-sm me-2">📹 Live Video</button>
+          <button class="btn btn-outline-warning btn-sm">📸 Photo/Video</button>
+        </div>
       </div>
     </div>
+  </div>
+
+  <!-- Posted Content -->
+  <div class="post-box">
+    <div class="post-header mb-2">
+      <div class="post-user">
+        <img src="./images/by3.jpg" class="profile-img" alt="user">
+        <div>
+          <strong>Manu Menon</strong><br>
+          <small class="text-muted">July 19 2025, 13:20 pm</small>
+        </div>
+      </div>
+      <div>
+        <i class="bi bi-three-dots-vertical"></i>
+      </div>
+    </div>
+    <p class="mt-2">
+      "Fueling productivity, one cup at a time. ☕💻 Coffee isn't just a drink — it's a work companion, a motivator, and a tiny boost of inspiration."
+      <a href="#">#CoffeeBreak</a>
+      <a href="#">#WorkModeOn</a></p>
+<img src="./images/tea.jpg" class="post-image " alt="coffee image">
+  </div>
+</div>
+
+
+    <!-- Right/Chat Section -->
+
+<div class="messages-container mt-1">
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <h5 class="text-orange">Messages</h5>
+    <div>
+      <i class="bi bi-grid-3x3-gap me-2"></i>
+      <i class="bi bi-three-dots-vertical"></i>
+    </div>
+  </div>
+
+  <input type="text" class="form-control mb-2" placeholder="Search" />
+
+  <!-- Chat List -->
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/grl1.jpg" alt="user" />
+      <div>
+        <p class="chat-name">Anusree</p>
+        <p class="chat-message">Hello!</p>
+      </div>
+    </div>
+    <span class="chat-time">8:23pm</span>
+  </div>
+
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/grl2.jpg" />
+      <div>
+        <p class="chat-name">Maya</p>
+        <p class="chat-message">Thank You..</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">10:16pm</span><br>
+      <span class="badge rounded-pill text-white">1</span>
+    </div>
+  </div>
+
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/by2.webp" />
+      <div>
+        <p class="chat-name">Varun</p>
+        <p class="chat-message">Hii, How are you?</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">9:36pm</span><br>
+      <span class="badge rounded-pill text-white">1</span>
+    </div>
+  </div>
+
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/by1.jpg" />
+      <div>
+        <p class="chat-name">Akshay</p>
+        <p class="chat-message">okeyy</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">9:20pm</span><br>
+      <span class="badge rounded-pill text-white">1</span>
+    </div>
+  </div>
+
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/grl3.webp" />
+      <div>
+        <p class="chat-name">Katherine</p>
+        <p class="chat-message">Hii</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">7:30pm</span><br>
+     </div>
+  </div>
+
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/grl4.webp" />
+      <div>
+        <p class="chat-name">Haritha</p>
+        <p class="chat-message">What's up?</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">7:13pm</span><br>
+    </div>
+  </div>
+
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/grl5.avif" />
+      <div>
+        <p class="chat-name">Manasa</p>
+        <p class="chat-message">Nope</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">4:30pm</span><br>
+    </div>
+  </div>
+
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/grl3.webp" />
+      <div>
+        <p class="chat-name">Arathi</p>
+        <p class="chat-message">...?</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">11:16pm</span><br>
+    </div>
+  </div>
+
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/by3.jpg" />
+      <div>
+        <p class="chat-name">Manu Menon</p>
+        <p class="chat-message">Hii</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">8:26pm</span><br>
+      <span class="badge rounded-pill text-white">1</span>
+    </div>
+  </div>
+
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/grl6.jpg" />
+      <div>
+        <p class="chat-name">Arya</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">19/07/25</span><br>
+    </div>
+  </div>
+
+  <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/grl7.jpg" />
+      <div>
+        <p class="chat-name">Meera</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">19/07/25</span><br>
+    </div>
+  </div>
+
+    <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/by1.jpg" />
+      <div>
+        <p class="chat-name">Kiran</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">18/07/25</span><br>
+    </div>
+  </div>
+
+    <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/grl8.jpg" />
+      <div>
+        <p class="chat-name">Keerthi</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">16/07/25</span><br>
+    </div>
+  </div>
+
+    <div class="chat-user">
+    <div class="chat-left">
+      <img src="./images/by2.webp" />
+      <div>
+        <p class="chat-name">Ajith</p>
+      </div>
+    </div>
+    <div class="text-end">
+      <span class="chat-time">15/07/25</span><br>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
   </body>
 </html>

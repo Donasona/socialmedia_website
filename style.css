@@ -77,9 +77,8 @@ clip-path: polygon(100% 0, 90% 35%, 70% 67%, 40% 88%, 0 100%,0% 0%);
 }
 .container{
     width: 60%;
-    box-shadow: 5px 5px 5px var(--text-orange);
-   margin-left: 95px;
-   margin-top: 140px;
+    /* box-shadow: 5px 5px 5px var(--text-orange); */
+   /* margin-top: 140px; */
 }
 h1{
     font-size: 80px;
@@ -418,3 +417,92 @@ p{
     background-color: var(--text-primary);
     border-radius: 6px;
  }
+
+
+
+
+    .profile-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .post-box {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      background-color: #fff;
+    }
+    .post-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .post-user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .hashtag a {
+      text-decoration: none;
+      color: #0d6efd;
+      margin-right: 10px;
+    }
+    .post-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .messages-container {
+      max-width: 450px;
+      margin: 20px auto;
+      background-color: #fff;
+      color: #E67E4E;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      height: 90vh;
+      overflow-y: auto;
+    }
+    .chat-user {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    .chat-left {
+      display: flex;
+      align-items: center;
+    }
+    .chat-left img {
+      width: 36px;
+      height: 36px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .chat-name {
+      font-weight: 500;
+      margin: 0;
+    }
+    .chat-message {
+      font-size: 0.9rem;
+      color: gray;
+  margin: 0;
+    }
+    .chat-time {
+      font-size: 0.8rem;
+      color: #888;
+    }
+    .badge {
+      font-size: 0.7rem;
+      background-color: orange;
+    }
